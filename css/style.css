@@ -1,0 +1,101 @@
+body {
+  background:MistyRose;
+  scroll-behavior:smooth;
+  overflow:scroll:
+}
+.navbar {
+  background:purple;
+  padding-bottom:0;
+  padding-top:0;
+  border-bottom: 2px solid deepPink;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 60px;
+  font-family:"Cookie";
+  padding:0;
+  margin:0;
+}
+.nav-link {
+  text-transform:uppercase;
+  margin: 0 10px;
+  width:100%;
+  text-align:center;
+
+}
+.nav-link:hover {
+  background: #fff;
+  color:purple !important;
+}
+
+.cont {
+  background:whiteSmoke;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3)
+}
+#home {
+  padding-top:150px;
+}
+.main {
+  border-radius:50%;
+  max-width:400px;
+  width:100%;
+  animation-name: Main;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+.container-fluid {
+  background:;
+  margin: 0 auto;
+}
+.lead {
+  font-size:18px;
+  margin-top:20px;
+  position:relative;
+  animation-name: Text;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+#features {
+  padding: 100px 10px 0 10px;
+}
+.img-fluid {
+  margin-top: 25px;
+}
+h1 {
+  text-align:center;
+}
+hr {
+  background:deepPink;
+}
+#contact {
+  padding: 100px 0px 0px 0px;
+}
+.cont-back {
+  padding-top:20px;
+ padding-bottom:20px;
+  background:url("https://images.pexels.com/photos/9079/night-animal-cats-clean.jpg?cs=srgb&dl=adorable-animal-black-and-white-9079.jpg&fm=jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+}
+.btn {
+  background:purple;
+  border:none;
+}
+.btn:hover {
+  background:DarkMagenta;
+}
+
+footer {
+  padding: 15px 0;
+}
+
+@keyframes Main {
+  0%   {opacity:0; transform:scale(0.5)}
+  75% 
+   100% {opacity:1}
+}
+@keyframes Text {
+  0% {opacity:0; right:-200px;}
+  100% {opacity:1; right:0px;}
+}
