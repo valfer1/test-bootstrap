@@ -39,6 +39,9 @@ body {
   border-radius:50%;
   max-width:400px;
   width:100%;
+}
+
+.ani {
   animation-name: Main;
   animation-duration: 1s;
   animation-timing-function: ease;
